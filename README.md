@@ -24,3 +24,5 @@ You should update data structures appropriately.
 o This method is called regularly and provides you with the current time in milliseconds for sending routing packets at regular intervals.
 - debugString(self)
 o This method is called by the network visualization to print current details about the router. It should return any string that will be helpful for debugging. This method is for your own use and will not be graded.
+
+Code of Focus: LSrouter.py
