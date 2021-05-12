@@ -6,7 +6,8 @@ Link-State Routing
 - Each router broadcast its own link state to all neighbors when the link state changes. The broadcast is also done periodically if no detected change has occurred.
 - A sequence number is added to each link state message to distinguish between old and new link state messages. Each router stores the sequence number together with the link state. If a router receives a link state message with a smaller sequence number (i.e., an old link state message), the link state message is simple disregarded.
 
-Method descriptions
+# Method descriptions
+
 These are the methods you need to complete in DVrouter and LSrouter: - __init__(self, addr, heartbeatTime)
 Packet
 o Class constructor. addr is the address of this router. Add your own class fields and initialization code (e.g., to create forwarding table data structures). Routing information should be sent by this router at least once every heartbeatTime milliseconds.
